@@ -7,7 +7,7 @@ const category = ['off-broadway', 'broadway'];
 
 const FavoriteShows = ({ shows }) => (
   <ul className='fav-shows-list'>
-    <div>Your Favorite Shows...</div>
+    <h3>Your Favorite Shows</h3>
     {shows.slice(0, 15).map(item => (
       <li key={item.id} className='fav-shows-list-item'>
         <h4 className='fav-shows-title'>{item.title}</h4>
