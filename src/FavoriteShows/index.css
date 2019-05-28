@@ -1,0 +1,15 @@
+.fav-shows-list {
+  list-style: none;
+  width: 80%;
+}
+
+li:first-of-type {
+  border-top: 1px solid black;
+}
+.fav-shows-list-item {
+  border-bottom: 1px solid black;
+}
+
+.fav-shows-category {
+  font-size: 14px;
+}
